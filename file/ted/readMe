@@ -1,0 +1,38 @@
+
+talkID range 0-1203
+userID range 0-12402
+---------------------------
+user.csv
+    des:origin data to input
+    field:
+        talk:talk name
+        user:user ID
+    format:
+
+    talk	user
+    Graham Hill: Less stuff, more happiness	0
+    Adam Ostrow: After your final status update	0
+----------------------------
+talk.csv
+    des:generate file during running
+    field:
+        ID:
+        name:
+    format:
+        0,"Graham Hill: Less stuff, more happiness"
+        1,Adam Ostrow: After your final status update
+-----------------------------
+favorite.csv
+    des:generate file during running
+    field:
+        userID:
+        talkID:
+        ratingScore:the degree user of user to the talk
+    format:
+        0,0,1
+        0,1,1
+------------------------------
+matrixW.txt
+    des:generate file during running
+        means intrest matrixs
+
